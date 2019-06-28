@@ -1,8 +1,15 @@
 import Vue from 'vue'
+import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import 'roboto-fontface/css/roboto/roboto-fontface.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import './plugins/iview.js'
+import './plugins/vuesax.js'
+import './plugins/semantic.js'
+import './plugins/others.js'
 
 Vue.config.productionTip = false
 
