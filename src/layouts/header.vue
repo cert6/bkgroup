@@ -38,15 +38,15 @@
 </div>
            
         </BreadcrumbItem>
-        <BreadcrumbItem to="/components/breadcrumb">
+        <BreadcrumbItem>
             <button  class="uk-button" type="button"> <Icon type="logo-buffer"></Icon> ONG</button>
        
 <div uk-dropdown>
     <ul class="uk-nav uk-dropdown-nav">
          <li class="uk-h1 uk-nav-header uk-text-danger"> FORMATIONS ONG</li>
        
-        <li class="uk-active"><a href="#">FORMATIONS    </a></li>
-        <li><a href="#">COUT DE FORMATIONS</a></li>
+        <li @click="$router.push('/ong')" class="uk-active"><a >ONG PDA   </a></li>
+        <li @click="$router.push('/ong/formations')"><a >FORMATIONS</a></li>
         <li><a href="#">VOLUME HORAIRE</a></li>
       
     </ul>

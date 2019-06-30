@@ -10,9 +10,9 @@
     <i class="ui icon at"></i>Adresse E-mail : direction.generale@bkgroup-ci.org
 </p>
 <p>
-    <b>Encore besoin d'aide ?</b><br><br>
+    <b>Encore besoin d'aide ?</b><br><br><br>
     <span>Envoyez-nous votre requête via le formulaire en ligne ci-contre et nous vous répondrons sous 2 jours ouvrables.</span>
-
+<br><br>    
 </p>
 <div class="ui  inline field input">
 <p><Input size="large" style="width: 333px" placeholder="Nom complet"/>&nbsp;
@@ -28,7 +28,7 @@
 </p>
 <p>
     <Input type="textarea" :autosize="{minRows: 4,maxRows: 9}" placeholder=""></Input>
-</p>
+</p> <br>
 <p>
     <v-btn dark color="red">
         <v-icon>send</v-icon> &nbsp;
@@ -36,7 +36,7 @@
     </v-btn>
 </p>
 </div>
-
+<h1></h1>
     </div>
 </template>
 

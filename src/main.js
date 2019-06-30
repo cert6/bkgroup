@@ -10,11 +10,15 @@ import './plugins/iview.js'
 import './plugins/vuesax.js'
 import './plugins/semantic.js'
 import './plugins/others.js'
+import TurbolinksAdapter from 'vue-turbolinks';
+Vue.use(TurbolinksAdapter)
 
 Vue.config.productionTip = false
+
 
 new Vue({
   router,
   store,
   render: h => h(App)
 }).$mount('#app')
+

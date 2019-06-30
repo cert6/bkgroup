@@ -53,7 +53,7 @@
     </div>
     <div>
         <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle">
-             <img src="/img/r8.jpg" alt="">
+             <img style="display:none" src="/img/r8.jpg" alt="">
         </div>
     </div>
    
