@@ -30,15 +30,15 @@
 BK GROUP vous accompagne tout au long de votre d'admission.
                     </p>
                     <br>
-                   <Button type="primary" size="large" >
+                   <Button @click="$router.push('/etudes')" type="primary" size="large" >
                        <i class="ui icon linkify"></i>
                        Plus de détails</Button>&nbsp;
-                         <Button type="secondary" size="large" >
+                         <Button @click="$router.push('/postuler-etudes')" type="secondary" size="large" >
                        <i class="ui icon edit"></i>
                        Postuler</Button>
 
                        <br><br>
-                        <v-btn outline  color="black" dark>
+                        <v-btn @click="$router.push('/admission-etudes')" outline  color="black" dark>
                       <v-icon>photo</v-icon>  Les dernières admissions | Album Photos
                         </v-btn>
                    
@@ -56,7 +56,7 @@ BK GROUP vous accompagne tout au long de votre d'admission.
 BK GROUP vous accompagne tout au long de votre d'admission.
                     </p>
                     <br>
-                    <Button type="primary" size="large" >
+                    <Button @click="$router.push('/formations')" type="primary" size="large" >
                        <i class="ui icon linkify"></i>
                        Plus de détails</Button>
                       

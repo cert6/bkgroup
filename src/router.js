@@ -10,6 +10,13 @@ const RouterLayout = createRouterLayout(layout => {
 })
 
 export default new Router({
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 1, y: 1}
+    }
+  },
   mode:'history',
   routes: [
     {

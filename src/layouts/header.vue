@@ -28,9 +28,9 @@
        
 <div uk-dropdown>
     <ul class="uk-nav uk-dropdown-nav">
-         <li @click="$router.push('/formaions')" class="uk-h1 uk-nav-header uk-text-danger">NOS FORMATIONS</li>
+         <li class="uk-h1 uk-nav-header uk-text-danger">NOS FORMATIONS</li>
       
-        <li @click="$router.push('/formations/qualifiantes')"><a >Formations qualifiantes</a></li>
+        <li @click="$router.push('/formations/')"><a >Formations qualifiantes</a></li>
         <li @click="$router.push('/formations/installations')"><a href="#">Formations d'installation</a></li>
         <li @click="$router.push('/formations/modules')"><a>Module de formations</a></li>
          <li @click="$router.push('/formations/couts')"><a>Cout de formations</a></li>

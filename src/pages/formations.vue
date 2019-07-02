@@ -2,10 +2,10 @@
     <div >
         <div id="nav" class="uk-card uk-card-small uk-card-default uk-card-body align-left ">
               <Breadcrumb separator="/">
-        <BreadcrumbItem to="/accueil">
+        <BreadcrumbItem to="/formations">
             Formations qualifiantes
         </BreadcrumbItem>
-        <BreadcrumbItem to="/etudes">
+        <BreadcrumbItem to="/formations/installations">
             Formations d'installation
         </BreadcrumbItem>
           <BreadcrumbItem to="/etudes">
