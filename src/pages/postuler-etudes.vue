@@ -1,6 +1,25 @@
 <template>
-    <div class="align-left main container ui segment basic">
+<div>
+    <div class="uk-height-medium uk-background-cover uk-position-relative" data-src="/img/school.jpeg" uk-img>
 
+    <div class="uk-position-cover uk-overlay uk-overlay-primary">
+<div class="uk-position-center">
+    <br>
+   <h1 class="font-weight-light"> 
+       Etudier en chine , avec SICAS
+       
+   </h1>
+</div>
+    </div>
+    </div>
+    <div class="align-left main container ui segment basic">
+<h1 class="uk-h2">
+   Pièce à fournir
+</h1>
+
+<p>
+    
+</p>
 
     <h3>Faire une démande</h3>
     <span>Envoyez-nous votre requête via le formulaire en ligne ci-contre et nous vous répondrons sous 2 jours ouvrables.</span>
@@ -47,6 +66,7 @@
 <h1>&nbsp;</h1>
 
     </div>
+</div>
 </template>
 
 

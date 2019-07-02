@@ -7,7 +7,7 @@
             <v-spacer></v-spacer>
             <Breadcrumb>
         <BreadcrumbItem  to="/accueil">
-            <Icon type="md-home"></Icon> Accueil
+            <Icon type="md-home"></Icon> ACCUEIL
         </BreadcrumbItem>
         <BreadcrumbItem >
             <button  class="uk-button" type="button"> <Icon type="ios-book"></Icon> Etudier en chine</button>
