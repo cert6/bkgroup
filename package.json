@@ -20,6 +20,7 @@
     "semantic-ui-vue": "^0.8.1",
     "vue": "^2.6.10",
     "vue-float-label": "^1.6.1",
+    "vue-html-to-paper": "^1.1.0",
     "vue-router": "^3.0.3",
     "vue-router-layout": "^0.1.2",
     "vue-turbolinks": "^2.0.4",
@@ -28,6 +29,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@mdi/font": "^3.7.95",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-plugin-pwa": "^3.8.0",

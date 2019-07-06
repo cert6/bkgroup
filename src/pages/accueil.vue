@@ -21,7 +21,7 @@
         <div class="ui segment basic">
           <div class="ui two column grid stackable">
                 <div class="column">
-                <div class="uk-card uk-height-medium  uk-card-medium uk-card-default uk-card-body">
+                <div class="uk-card uk-height-medium  uk-card-medium uk-card-secondary uk-card-body">
                     <h3 class="uk-card-title">
                         <i class="ui icon graduation"></i>Etudier en chine
                     </h3>
@@ -33,21 +33,30 @@ BK GROUP vous accompagne tout au long de votre d'admission.
                    <Button @click="$router.push('/etudes')" type="primary" size="large" >
                        <i class="ui icon linkify"></i>
                        Plus de détails</Button>&nbsp;
-                         <Button @click="$router.push('/postuler-etudes')" type="secondary" size="large" >
+                         <Button @click="$router.push('/postuler-etudes')" type="primary" size="large" >
                        <i class="ui icon edit"></i>
                        Postuler</Button>
 
                        <br><br>
-                        <v-btn @click="$router.push('/admission-etudes')" outline  color="black" dark>
+                        <v-btn @click="$router.push('/admission-etudes')" outline  dark>
                       <v-icon>photo</v-icon>  Les dernières admissions | Album Photos
                         </v-btn>
                    
                 </div>
                 </div>
 
+               <div class="column">
+                    <div data-src="/img/sc.jpeg" class="uk-height-medium uk-background-cover" uk-img>
+
+                </div>
+               </div>
+<div class="column">
+     <div data-src="/img/forma.jpeg" class="uk-height-medium uk-background-cover" uk-img>
+     </div>
+</div>
 
                    <div class="column">
-                <div class="uk-card uk-height-medium  uk-card-medium uk-card-default uk-card-body">
+                <div class="uk-card uk-height-medium  uk-card-medium uk-card-secondary uk-card-body">
                     <h3 class="uk-card-title">
                         <i class="ui icon copy"></i>FORMATIONS
                     </h3>
@@ -63,6 +72,10 @@ BK GROUP vous accompagne tout au long de votre d'admission.
                    
                 </div>
             
+                </div>
+
+                <div class="column">
+                    
                 </div>
 
           </div>

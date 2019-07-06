@@ -61,15 +61,49 @@
 
         <router-view></router-view>
         <br>
-         <v-footer 
+         <v-footer  v-if="$route.path!=='/'"
     dark
     flat
-    fixed
+
     height="auto"
     class="pa-0"
   >
+
     
         <v-card-text class="white--text">
+              <div class="ui segment basic">
+      <div class="ui uk-light three column grid stackable">
+          <div class="column">
+              <p class="uk-h4 uk-text-uppercase">Nous contacter</p>
+              <p classs="uk-text-left uk-text-justify">
+                  <i class="ui icon phone"></i> + 225 30 640 648 / 43 51 22 80 <br>
+                  <i class="ui icon at"></i>  info@bkgroup-ci.org <br>
+                   <i class="ui icon point"></i> YAMOUSSOUKRO 220 LOGEMENTS CARREFOUR ECOLE ZAHER
+              </p>
+
+          </div>
+           <div class="column">
+              <p class="uk-h4 uk-text-uppercase">à propos</p>
+              <p>
+                  <ul>
+                      <li>Qui sommes nous</li>
+                      <li>Directeur générale</li>
+                      <li>Partenaires</li>
+
+                  </ul>
+                 
+                 
+              </p>
+          </div>
+
+          <div class="column">
+              <p class="uk-h4 uk-text-uppercase">Nous suivre</p>
+              <p>
+                  <i class="ui icon facebook big"></i>
+              </p>
+          </div>
+      </div>
+  </div>
         &copy;2019 — <strong>bkgroup</strong> Propulsé par cert6.ltd | Hébergé sur LWS
       </v-card-text>
   </v-footer>
@@ -97,5 +131,9 @@ button.uk-button{
 
 button.uk-button:hover{
       color:#ED213A;
+}
+
+ul li{
+    list-style: none;
 }
 </style>
