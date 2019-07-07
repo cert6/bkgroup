@@ -12,7 +12,7 @@
 
 </div>
 <h1></h1>
-<div class="ui divider horizontal">REMISE DE LETTRE CHINE 2018-2019</div>
+<div class="ui divider horizontal">REMISE DE LETTRE CHINE 2018</div>
 
 <div class="ui segment basic uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
     

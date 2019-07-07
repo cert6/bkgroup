@@ -31,8 +31,8 @@
          <li class="uk-h1 uk-nav-header uk-text-danger">NOS FORMATIONS</li>
       
         <li @click="$router.push('/formations/')"><a >Formations qualifiantes</a></li>
-        <li @click="$router.push('/formations/installations')"><a href="#">Formations d'installation</a></li>
-        <li @click="$router.push('/formations/modules')"><a>Module de formations</a></li>
+        <li @click="$router.push('/formations/installations')"><a href="#">Formations d'insertion</a></li>
+
          <li @click="$router.push('/formations/couts')"><a>Cout de formations</a></li>
     </ul>
 </div>

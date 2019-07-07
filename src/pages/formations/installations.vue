@@ -6,7 +6,7 @@
 <div class="uk-position-cover uk-overlay uk-overlay-primary">
 
 <div class="uk-position-center">
-    <h1>FORMATIONS D'INSTALLATION</h1>
+    <h1>FORMATIONS D'INSERTION</h1>
 </div>
 </div>
 </div>

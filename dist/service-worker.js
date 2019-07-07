@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.21066ffbea4f00a95300d42de19895c6.js"
+  "/precache-manifest.acd64c95712d55b8f49c20dbdb5dfcad.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "bkgroup"});
